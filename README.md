@@ -1,7 +1,7 @@
 # ModalKit
 ModalKit is an easy way to generate and display standardized modals on the fly.
 
-[![codebeat badge](https://codebeat.co/badges/e15f40b3-ab65-45cf-91ce-e77a0b2bc909)](https://codebeat.co/projects/github-com-darkroastcreative-modalkit-master)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/372addf7f08a4cb1b05cb50fdc153ce7)](https://www.codacy.com/app/david_46/ModalKit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=darkroastcreative/ModalKit&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/e15f40b3-ab65-45cf-91ce-e77a0b2bc909)](https://codebeat.co/projects/github-com-darkroastcreative-modalkit-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/372addf7f08a4cb1b05cb50fdc153ce7)](https://www.codacy.com/app/david_46/ModalKit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=darkroastcreative/ModalKit&amp;utm_campaign=Badge_Grade)
 
 ## Features
 ### Currently Available
@@ -39,10 +39,12 @@ showModal() displays a modal using a standard modal template, using the data pas
 #### data Parameter
 The data parameter accepts JSON with the values to inject into a modal. The length and information provided is dependent on the fields to fill in the template. In the default template, the template requires a content for `title` and `body`.
 
-#### Default Template Example
+##### Default Template Example
 ```
 showModal({
 	title: "Hello",
 	body: "This is a sample modal created by ModalKit."
 });
 ```
+### deleteModal(evt)
+deleteModal() deletes a modal from the DOM. The function accepts an event (as the `evt` parameter), which the function uses to determine the specific modal to target and remove.
