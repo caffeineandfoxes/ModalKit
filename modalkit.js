@@ -6,6 +6,10 @@ david@darkroastcreative.co
 http://darkroastcreative.co
 */
 
+function deleteModal(evt) {
+  $(evt.target).remove();
+}
+
 function showModal(data) {
 
   // TODO: Implement template reader functionality
@@ -18,8 +22,4 @@ function showModal(data) {
     deleteModal(evt);
   });
 
-}
-
-function deleteModal(evt) {
-  $(evt.target).remove();
 }
