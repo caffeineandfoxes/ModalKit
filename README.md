@@ -46,8 +46,8 @@ $(document).ready(function() {
 ```
 
 ## API/Functional Documentation
-### showModal(data, [templateSource])
-showModal() displays a modal using a standard modal template, using the data passed through the function to populate fields in the modal.
+### showModal(data, [templateSource], [timeout])
+showModal() displays a modal using a standard modal template, using the data passed through the function to populate fields in the modal, and the optional `templateSource` and `timeout` parameters to select the modal template and timeout time.
 
 #### data Parameter
 The `data` parameter accepts JSON with the values to inject into a modal. The length and information provided is dependent on the fields to fill in the template. In the default template, the template requires a content for `title` and `body`.
@@ -61,6 +61,9 @@ showModal({
 
 #### templateSource Parameter (Optional)
 The `templateSource` parameter is an optional parameter which is used to pass the source markup for a modal template. Though it is recommended to store this source as a variable and pass the variable through the `showModal()` call, it is also possible to pass a String with the markup inline. If no value is specified for this parameter, the default modal template will be used.
+
+#### timeout Parameter (Optional)
+The `timeout` parameter is an optional parameter used to specify a timeout time for a given modal, measured in milliseconds. This value is passed as an integer, and when the timeout time is reached, the modal will dismiss itself and be deleted from the DOM.
 
 ### deleteModal(evt)
 deleteModal() deletes a modal from the DOM. The function accepts an event (as the `evt` parameter), which the function uses to determine the specific modal to target and remove.
