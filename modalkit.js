@@ -33,7 +33,7 @@ function showModal(data, templateSource, timeout) {
 
       // Create a timer to count down timeout time and take action on timer expiration
       var timer = setInterval(function() {
-        $('.modal.in').first().modal("hide");
+        $(".modal.in").first().modal("hide");
         clearInterval(timer);
       }, timeout);
     }
