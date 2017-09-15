@@ -3,6 +3,10 @@ ModalKit is an easy way to generate and display standardized modals on the fly.
 
 [![codebeat badge](https://codebeat.co/badges/e15f40b3-ab65-45cf-91ce-e77a0b2bc909)](https://codebeat.co/projects/github-com-darkroastcreative-modalkit-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/372addf7f08a4cb1b05cb50fdc153ce7)](https://www.codacy.com/app/david_46/ModalKit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=darkroastcreative/ModalKit&amp;utm_campaign=Badge_Grade)
 
+[![Buy Me A Coffee](http://darkroastcreative.co/wp-content/uploads/2017/09/DRC_Buy-Me-A-Coffee_Button.png)](https://ko-fi.com/A1263BPJ)
+
+Like ModalKit? [Buy me a coffee (or two, I’ll drink them both).](https://ko-fi.com/A1263BPJ)
+
 ## Features
 ### Currently Available
 * Dynamic Modal Generation - Modals can be generated without having to include modal-specific markup.
