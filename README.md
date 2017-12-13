@@ -8,10 +8,7 @@ ModalKit is an easy way to generate and display standardized modals on the fly.
 Like ModalKit? [Buy me a coffee (or two, I’ll drink them both).](https://ko-fi.com/A1263BPJ)
 
 ## Features
-### Currently Available
 * Dynamic Modal Generation - Modals can be generated without having to include modal-specific markup.
-
-### Coming Soon
 * Template System - Predefine modal templates, and ModalKit will fill in the provided data in the template when called.
 * Modal Time-out - Set modals up to dismiss themselves after a specified amount of time.
 
