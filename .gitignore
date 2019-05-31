@@ -1,9 +1,2 @@
-# Demo Site
-demo/
-
 # macOS System Files
 .DS_Store
-
-# Design-Related Files
-*.ai
-ModalKit_Logo_with_Type.png
